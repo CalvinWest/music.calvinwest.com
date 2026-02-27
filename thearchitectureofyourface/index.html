@@ -3,32 +3,41 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Calvin West - New Release</title>
+    <title>Calvin West - The Architecture Of Your Face</title>
     
-    <link rel="icon" type="image/webp" href="/calvinwest.webp" />
+    <!-- Using ../ to go up one folder to find the image and CSS -->
+    <link rel="icon" type="image/webp" href="../calvinwest.webp" />
 
-    <!-- Google tag (gtag.js) -->
+    <!-- Google tag (gtag.js) - Exactly as you had it -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11313860781"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
+
         gtag('config', 'AW-11313860781');
     </script>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="../style.css">
 </head>
 <body>
 
     <div class="card">
+        <!-- Profile Photo -->
+        <div class="profile-container">
+            <img src="../calvinwest.webp" alt="Calvin West Profile" class="profile-img">
+        </div>
         
+        <!-- Artist Name & Release Title -->
         <h1 class="name">Calvin West</h1>
+        <h2 class="release-title">"The Architecture Of Your Face"</h2>
 
-        <!-- NEW: YouTube Embedded Video -->
+        <!-- YouTube Embedded Video -->
         <div class="video-container">
+            <!-- Replace YOUR_VIDEO_ID_HERE with the actual YouTube video ID -->
             <iframe 
-                src="https://www.youtube.com/embed/kmZxB-hjG-I" 
+                src="https://www.youtube.com/embed/YOUR_VIDEO_ID_HERE" 
                 title="YouTube video player" 
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                 allowfullscreen>
